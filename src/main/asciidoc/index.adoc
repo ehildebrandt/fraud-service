@@ -1,0 +1,20 @@
+= Spring REST Docs Sample
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample application demonstrating how to use Spring REST Docs.
+
+`FraudApplication` makes a call to a very simple service and produces three documentation snippets.
+
+One showing how to make a request using cURL:
+
+include::{snippets}/message/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/message/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/message/http-response.adoc[]

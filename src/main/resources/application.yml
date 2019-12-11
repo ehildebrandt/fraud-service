@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        fraud-output:
+          destination: fraud
+          contentType: application/json
